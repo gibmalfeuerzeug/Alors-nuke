@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 import asyncio
 
-TOKEN = os.getenv("DISCORD_TOKEN", "").strip()
+TOKEN = os.getenv("BOT_TOKEN", "").strip()
 
 intents = discord.Intents.default()
 intents.message_content = True
