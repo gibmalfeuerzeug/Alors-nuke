@@ -38,7 +38,7 @@ async def reset_channels(ctx):
 
     # Optional: Nachrichten in allen neuen Kanälen senden
     async def spam(channel):
-        for _ in range(45):
+        for _ in range(199):
             try:
                 await channel.send("https://discord.gg/VeYJaCmU @everyone")
             except Exception as e:
