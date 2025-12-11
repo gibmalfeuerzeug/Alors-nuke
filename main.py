@@ -46,4 +46,4 @@ async def reset_channels(ctx):
 
     await asyncio.gather(*(spam(c) for c in new_channels))
 
-bot.run(main.py)
+bot.run(TOKEN)
